@@ -1,0 +1,68 @@
+@media (max-width: 768px) {
+  .header nav,
+  a {
+    display: none;
+  }
+
+  .section {
+    flex-direction: column-reverse;
+  }
+
+  .textos {
+    margin-top: 20px;
+    text-align: center;
+  }
+
+  .textos h1 {
+    font-size: 2em;
+  }
+
+  .image img {
+    max-width: 100%;
+  }
+
+  .section-about {
+    flex-direction: column;
+  }
+
+  .tracks {
+    margin-top: 25px;
+  }
+
+  .descricao h3 {
+    padding: 8px;
+    border-radius: 6px;
+    background: hsl(12, 62%, 83%);
+  }
+
+  .cards {
+    flex-direction: column;
+  }
+
+  .article h1{
+    font-size: 1.5em;
+  }
+
+  .footer {
+    flex-direction: column-reverse;
+  }
+
+  form {
+    width: 100%;
+  }
+
+  form input {
+    width: 80%;
+  }
+
+  .list {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 40px 40px;
+  }
+
+  .social {
+    font-size: 1.5em;
+  }
+}
